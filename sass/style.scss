@@ -1,20 +1,17 @@
-
-
 /*Global*/
 *, *::before *::after {
     box-sizing: border-box;
 }
 
 body {
-
-font-family: 'Source Sans Pro', sans-serif;
-background-image: url("https://i.postimg.cc/dtnrz1Bw/pexels-ray-bilcliff-1494707.jpg");
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url("https://i.postimg.cc/dtnrz1Bw/pexels-ray-bilcliff-1494707.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .nav {
-height: 120px;
+    height: 120px;
 
 }
 
@@ -29,18 +26,18 @@ height: 120px;
 
 .logo-text {
     font-size: 20px;
-    color: white;
-       
+    color: white;       
 }
 
 .logo-container {
-display: flex;
+    display: flex;
 }
 
 .logo-subcontainer {
-    margin-top: 1300px;
+    margin-top: 300px;
 }
 
+/*form*/
 
 .exampleInputEmail {
     width: 400px;
@@ -49,9 +46,8 @@ display: flex;
 }
 
 h1 {
-font-size: 36px;
-font-weight: 700;
-
+    font-size: 36px;
+    font-weight: 700;
 }
 
 h3 {
@@ -73,15 +69,13 @@ h3 {
 }
 
 .btn-google:hover {
-border: 2px solid gray;
+    border: 2px solid gray;
 }
 
 .btn-apple,
 .btn-facebook {
-    color:white;
-    
+    color:white;    
 }
-
 
 .btn-google,
 .btn-facebook,
@@ -112,11 +106,9 @@ form {
     border-radius: 10px;
 }
 
-.footer {
-color: gray;
-margin: 30px 0px 0px;
-padding: 12px 0px 0px;
-font-size: 12px;
-
-
+.form-bottom-info {
+    color: gray;
+    margin: 30px 0px 0px;
+    padding: 12px 0px 0px;
+    font-size: 12px;
 }
