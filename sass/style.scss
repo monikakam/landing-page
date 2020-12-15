@@ -1,0 +1,123 @@
+
+
+/*Global*/
+*, *::before *::after {
+    box-sizing: border-box;
+}
+
+body {
+
+font-family: 'Source Sans Pro', sans-serif;
+background-image: url("https://i.postimg.cc/dtnrz1Bw/pexels-ray-bilcliff-1494707.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav {
+height: 120px;
+
+}
+
+/*logo*/
+
+.logo {
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    margin-top: 300px;
+}
+
+.logo-text {
+    font-size: 20px;
+    color: white;
+       
+}
+
+.logo-container {
+display: flex;
+}
+
+.logo-subcontainer {
+    margin-top: 1300px;
+}
+
+
+.exampleInputEmail {
+    width: 400px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+h1 {
+font-size: 36px;
+font-weight: 700;
+
+}
+
+
+
+h3 {
+    margin: auto;
+}
+
+.lub {
+    margin: auto;
+    font-size: 5px;
+}
+
+.btn-kontynuuj {
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 3.5px 14px 4.5px;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+.btn-google:hover {
+border: 2px solid gray;
+}
+
+.btn-apple,
+.btn-facebook {
+    color:white;
+    
+}
+
+
+.btn-google,
+.btn-facebook,
+.btn-apple {
+    font-weight: bold;
+    width: 400px;
+    padding: 15px;
+    margin: 16px 0px 0px;
+    border-radius: 30px;
+}
+
+.fab {
+    margin: 0px 15px 0px 0px;
+}
+
+form {
+    margin: 50px 20px 50px 20px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.form-group {
+    background-color: white;
+    min-height: 630px;
+    min-width: 450px;
+    position: realtive;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.footer {
+color: gray;
+margin: 30px 0px 0px;
+padding: 12px 0px 0px;
+font-size: 12px;
+
+
+}

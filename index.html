@@ -2,20 +2,46 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>landingppage</title>
+        <title>landing-page</title>
 
-        <link rel="stylesheet" href="bootstrap-grid.css">
-        <link rel="stylesheet" href="style.css" type="text/css">
-
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="sass/style.scss" type="text/css">   
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+        <meta http-equiv="X-UA-compatible" content="IE=edge.chrome=1">
+           
     </head>
     <body>
         <div class="container">
+            <div class="nav"></div>
             <div class="row">
-                <div class="col-1"></div>
-                <div class="col-3">Adobe</div>
-                <div class="col-1"></div>
-                <div class="col-5">Zaloguj się</div>
-                <div class="col-1"></div>
+                <div class="col-sm-2 col-lg-1"></div>
+                <div class="col-lg-3 d-none d-lg-block logo-container">
+                    <div class="logo">Adobe</div>
+                    <div class="logo-text">Zaloguj się lub utwórz konto</div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-sm-8 col-lg-5">
+                    <div class="form-group">
+                        <form>
+                        <h1>Zaloguj się</h1>
+                            <p>Nowy użytkownik?<a href="#">Utwórz konto</a></p>
+                            <label for="exampleInputEmail"></label>
+                            <input type="email" class="form-control" id="exampleInputEmail" placeholder="Adres e-mail">
+                            <button type="submit" class="btn btn-primary btn-kontynuuj">Kontynuuj</button>
+                            <div class="lub">lub</div>
+                                                       
+                            <button type="submit" class="btn btn-light btn-google"><i class="fab fa-google"></i>Użyj konta Google</button>
+                            <button type="submit" class="btn btn-primary btn-facebook"><i class="fab fa-facebook-square"></i>Użyj konta Facebook</button>
+                            <button type="submit" class="btn btn-dark btn-apple"><i class="fab fa-apple"></i>Użyj konta Apple</button>
+                            <div class="footer">Chronione przez reCAPTCHA. obowiązują <a href="3">Zasady ochrony prywatności</a> i <a href="#">Regulamin usług</a> firmy Google</div>
+                        </form>    
+                    </div>
+                </div>
+                <div class="col-sm-2 col-lg-1"></div>
             </div>
         </div>
     
